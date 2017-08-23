@@ -1,0 +1,42 @@
+.container {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    border: 1px solid red;
+    border-radius: 10px;
+    height: auto;
+    width: 600px;
+}
+
+.bar {
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.item {
+    height: 40px;
+    line-height: 40px;
+    margin: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 97%;
+}
+
+.item span {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.male {
+    border-color: blue;
+    text-align: right;
+}
+
+.female {
+    border-color: yellow;
+}
